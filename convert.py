@@ -12,4 +12,4 @@ if not old_image.mode == "RGB":
     # convert to RGB
     old_image = old_image.convert("RGB")
 
-old_image.save(args.file[:len(file)-3] + type)
+old_image.save(args.file[:len(file)-3] + args.type)
